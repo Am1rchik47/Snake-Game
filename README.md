@@ -26,5 +26,5 @@
 2. Перейдите в папку где находится файл
 3. Запустите игру:
    ```bash
-   python tag-game.py
+   python snake_game.py
    ```
