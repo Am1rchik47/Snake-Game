@@ -2,6 +2,7 @@
 import pygame
 import random
 import os
+import sys
 pygame.init()
 
 window = pygame.display.set_mode((800, 600))
@@ -98,7 +99,7 @@ while True:
         if event.type == pygame.QUIT:
             print(f"Конечный рекорд: {score}")
             pygame.quit()
-            exit()
+            sys.exit()
         # Управление
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_a:
